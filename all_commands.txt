@@ -1,3 +1,4 @@
+this are some commands
     1  clear
     2  sudo useradd -m guddu
     3  sudo useradd -m munna
