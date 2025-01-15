@@ -1,0 +1,504 @@
+    1  clear
+    2  mkdir devops-batch-7
+    3  ls
+    4  cd devops-batch-7
+    5  mkdir shell_script
+    6  cd shell_script
+    7  vim create_user.sh
+    8  rm create_user.sh
+    9  ls
+   10  vim 
+   11  clear
+   12  ls
+   13  cd devops-batch-7
+   14  ls
+   15  cd shell_script
+   16  ls
+   17  vim create_user.sh
+   18  ./create_user.sh
+   19  ls -l create_user.sh
+   20  chmod 700 create_user.sh
+   21  ls
+   22  ./create_user.sh
+   23  vin delete_user.sh
+   24  vim delete_user.sh
+   25  chmod 700 delete_user
+   26  chmod 700 delete_user.sh
+   27  ./delet_user
+   28  ./delete_user.sh
+   29  vim delete_user.sh
+   30  ./delete_user.sh
+   31  cat /etc/passwd
+   32  clear
+   33  vim delete_user.sh
+   34  userdel -r A
+   35  sudo userdel -r A
+   36  sudo userdel username
+   37  sudo userdel C
+   38  cat /etc/passwd
+   39  clear
+   40  vim delete_user.sh
+   41  ./delete_user.sh
+   42  cat /etc/passwd
+   43  vim delete_user.sh
+   44  ./delete_user.sh
+   45  cat /etc/passwd
+   46  clear
+   47  ls
+   48  vim user_management.sh
+   49  chmod 700 user_management.sh
+   50  vim user_management.sh
+   51  ./usern_management c
+   52  ./user_management.sh c
+   53  clear
+   54  ls
+   55  cd devops-batch-7
+   56  ls
+   57  cd shell_script
+   58  ls
+   59  vim user_management.sh
+   60  ./user_management.sh d
+   61  cat /etc/passwd
+   62  clear
+   63  ./user_management.sh c
+   64  vim user_management.sh
+   65  ./user_management.sh
+   66  ./user_management.sh c
+   67  vim user_management.sh
+   68  clear
+   69  ./user_management.sh 
+   70  ./user_management.sh c
+   71  ls
+   72  vim backup.sh
+   73  ls
+   74  chmod 700 backup.sh
+   75  vim backup.sh
+   76  ls
+   77  mkdir backups
+   78  ls
+   79  vim backup.sh
+   80  cd backups
+   81  pwd
+   82  vim backup.sh
+   83  clear
+   84  ls
+   85  cd ..
+   86  ls
+   87  vim backup.sh
+   88  pwd
+   89  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+   90  vim backup.sh
+   91  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+   92  vim backup.sh
+   93  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+   94  sudo apt-get install zip
+   95  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+   96  vim backup.sh
+   97  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+   98  ls
+   99  cd backups
+  100  ls
+  101  rm backup.sh
+  102  ls
+  103  clear
+  104  ls
+  105  cd ..
+  106  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+  107  ls
+  108  vim backup.sh
+  109  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+  110  vim backup.sh
+  111  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+  112  vim backup.sh
+  113  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+  114  clear
+  115  ls
+  116  cd devops-batch-7
+  117  ls
+  118  cd shell_script
+  119  ls
+  120  vim backup.sh
+  121  pwd
+  122  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+  123  ./backup.sh /home/ubuntu/devops-batch-7/shell_script/backups
+  124  ls -l backup.sh
+  125  vim backup.sh
+  126  ./backup.sh /home/ubuntu/devops-batch-7/shell_script/backups
+  127  ls
+  128  cd backups
+  129  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+  130  cd ..
+  131  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+  132  ls
+  133  vim backup.sh
+  134  cd ..
+  135  pwd
+  136  mkdir backups
+  137  ls
+  138  cd backups
+  139  pwd
+  140  cd ..
+  141  ls
+  142  cd shell_script
+  143  ls
+  144  vim backup.sh
+  145  clear
+  146  [200~sudo apt update && sudo apt install zip -y
+  147  ~sudo apt-update && sudo apt-install ip -y
+  148  sudo apt-update && sudo apt-install zip -y
+  149  sudo apt update && sudo apt-install zip -y
+  150  sudo apt update && sudo apt install zip -y
+  151  clear
+  152  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+  153  cd ..
+  154  cd backups
+  155  ls
+  156  cd ..
+  157  cd shell_script
+  158  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+  159  cd ..
+  160  cd backups
+  161  ls
+  162  cd ..
+  163  cd shell_script
+  164  vim backup.sh
+  165  vim backup.sh\
+  166  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+  167  vim backup.sh\
+  168  ./backup.sh /home/ubuntu/devops-batch-7/
+  169  vim backup.sh\
+  170  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+  171  vim backup.sh
+  172  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+  173  cd ..
+  174  cd backups
+  175  ls
+  176  cd ..
+  177  cd shell_script
+  178  ./backup.sh /home/ubuntu/devops-batch-7/shell_script
+  179  cd ..
+  180  cd backups
+  181  ls
+  182  clear
+  183  cd devops-batch-7
+  184  ls
+  185  cd backups
+  186  crontab -e
+  187  ls
+  188  rm -r backup_2025_01_13-03-26-*
+  189  ls
+  190  rm backup_2025_01_13-03-20-43.zip
+  191  ls
+  192  l
+  193  ls
+  194  clear
+  195  crontab -e
+  196  cd ..
+  197  ls
+  198  cd shell_script
+  199  ls
+  200  pwd
+  201  cron -e
+  202  crontab -e
+  203  cd ..
+  204  cd backups
+  205  ls
+  206  cd ..
+  207  ls
+  208  cd shell_script
+  209  pwd
+  210  cd ..
+  211  ls
+  212  cd backups
+  213  pwd
+  214  crontab -e
+  215  cd ..
+  216  cd shell_script
+  217  ls
+  218  vim backup.sh
+  219  [200~chmod +x /home/ubuntu/devops-batch-7/shell_script/backup.sh
+  220  chmod +x /home/ubuntu/devops-batch-7/shell_script/backup.sh
+  221  ls -l backup.sh
+  222  [200~/home/ubuntu/devops-batch-7/shell_script/backup.sh /home/ubuntu/devops-batch-7/shell_script /home/ubuntu/devops-batch-7/backups
+  223  ~
+  224  /home/ubuntu/devops-batch-7/shell_script/backup.sh /home/ubuntu/devops-batch-7/shell_script /home/ubuntu/devops-batch-7/backups
+  225  cd ..
+  226  /home/ubuntu/devops-batch-7/shell_script/backup.sh /home/ubuntu/devops-batch-7/shell_script /home/ubuntu/devops-batch-7/backups
+  227  pwd
+  228  cd devops-batch-7/shell_script
+  229  ls
+  230  touch backup1.sh
+  231  clear
+  232  ls
+  233  chmod +x backup1.sh
+  234  clear
+  235  ls
+  236  cd devops-batch-7
+  237  cd shell_script
+  238  ls
+  239  vim backup1.sh
+  240  /home/ubuntu/devops-batch-7/shell_script/backup.sh /home/ubuntu/devops-batch-7/shell_script /home/ubuntu/devops-batch-7/backups
+  241  crontab -e
+  242  cd ..
+  243  cd backups
+  244  ls
+  245  cd ..
+  246  cd shell_script
+  247  ls
+  248  bachups
+  249  cd backups
+  250  ls
+  251  cd backups
+  252  ls
+  253  cron -e
+  254  crontab -e
+  255  cd ..
+  256  cd..
+  257  cd ..
+  258  ls
+  259  cd backups
+  260  ls
+  261  crontab -e
+  262  ls
+  263  lsls
+  264  ls
+  265  cd ..
+  266  ls
+  267  cd shell_script
+  268  ls
+  269  rm -r backups
+  270  ls
+  271  rm cron.log
+  272  ls
+  273  backup1.sh
+  274  vim backup1.sh
+  275  vim backup.sh
+  276  vim backup1.sh
+  277  vim backup.sh
+  278  vim backup1.sh
+  279  ls
+  280  vim backup1.sh
+  281  ./backup1.sh /home/ubuntu/devops-batch-7/shell_script /home/ubuntu/devops-batch-7/backups
+  282  vim backup1.sh
+  283  ./backup1.sh /home/ubuntu/devops-batch-7/shell_script /home/ubuntu/devops-batch-7/backups
+  284  sudo apt install zip
+  285  sudo apt get update
+  286  [200~sudo apt-get update~
+  287  sudo apt-get update
+  288  sudo apt-get install zip
+  289  ./backup1.sh /home/ubuntu/devops-batch-7/shell_script /home/ubuntu/devops-batch-7/backups
+  290  vim backup1.sh
+  291  ./backup1.sh /home/ubuntu/devops-batch-7/shell_script /home/ubuntu/devops-batch-7/backups
+  292  ls
+  293  ls -l backup1.sh
+  294  chmod 700 backup1.sh
+  295  ls
+  296  ./backup1.sh /home/ubuntu/devops-batch-7/shell_script /home/ubuntu/devops-batch-7/backups
+  297  ls
+  298  cd ..
+  299  backups
+  300  ls
+  301  cd backups
+  302  ls
+  303  clear
+  304  ls
+  305  clear
+  306  cd ..
+  307  ls
+  308  cd shel_scripy
+  309  cd shel_script
+  310  cd shell_script
+  311  ls
+  312  cd backup1.sh
+  313  vim backup1.sh
+  314  clear
+  315  git --versiom
+  316  git --version
+  317  sudo apt-get update
+  318  sudo apt-get install git
+  319  git --version
+  320  crontab -e
+  321  cd backups
+  322  ls
+  323  cd devops-batch-7
+  324  ls
+  325  cd backups
+  326  ls
+  327  cd ..
+  328  clear
+  329  git --version
+  330  ls
+  331  mkdir git-tutorial
+  332  cd git-tutorial
+  333  clear
+  334  skdir devops project-batch-7
+  335  mkdir devops-project-batch-7
+  336  mkdir devops-practice-project
+  337  ls
+  338  cd devops-project-batch-7
+  339  ls
+  340  git init
+  341  ls
+  342  ls -a
+  343  cd .git
+  344  ls
+  345  cd..
+  346  cd ..
+  347  clear
+  348  touch laila.txt
+  349  touch majnu.txt
+  350  ls -l
+  351  git status
+  352  git add laila.txt
+  353  git add majnu.txt
+  354  ls
+  355  git status
+  356  git commit -m "laila.txt"
+  357  git commit -m "majnu.txt"
+  358  git status
+  359  git log
+  360  ls
+  361  rm majnu.txt
+  362  ls
+  363  git log
+  364  git status
+  365  git restore majnu.txt
+  366  git status
+  367  git config --global user.name "RagitChitra178"
+  368  git config --global user.email "chitraragit2074@gmail.com"
+  369  history
+  370  history > touch all_commands.txt
+  371  touch all_commands.txt
+  372  ls
+  373  vim all_commands.txt
+  374  cat all_commands.txt
+  375  git add all_commands.txt
+  376  git commit -m "commands added to GCV"
+  377  git command
+  378  git status
+  379  ls
+  380  git status
+  381  ls
+  382  rm touch
+  383  ls
+  384  git status
+  385  vim all_commands.txt
+  386  git status
+  387  git add all_commands.txt
+  388  git commit -m "all_commands.txt updated"
+  389  git status
+  390  git log
+  391  git log --oneline
+  392  git log --oneline --pretty
+  393  git log --oneline
+  394  clear
+  395  ls
+  396  git-tutorial
+  397  ls
+  398  cd devops-project-batch-7
+  399  cd git-tutorial
+  400  ls
+  401  cd devops-project-batch-7
+  402  ls
+  403  git status
+  404  ls
+  405  git log --oneline
+  406  git status
+  407  git checkout -b dev
+  408  git satus
+  409  git log --oneline
+  410  vim feature-1.txt
+  411  git status
+  412  git add feature-1.txt
+  413  git commit -m "feature-1.txt added"
+  414  git status
+  415  git checkout master
+  416  git checkout dev
+  417  git log --oneline
+  418  git checkout master
+  419  git log --oneline
+  420  git checkout master
+  421  git checkout -b staging
+  422  clear
+  423  ls
+  424  cd git-tutorial
+  425  git status
+  426  git clone https://github.com/ChitraRagit123/devops-batch-7.git
+  427  git status
+  428  git clone https://github.com/ChitraRagit123/devops-batch-7.git
+  429  ls
+  430  git clone https://github.com/ChitraRagit123/devops-batch-7.git
+  431  clear
+  432  git clone https://github.com/ChitraRagit123/devops-batch-7.git
+  433  clear
+  434  ls
+  435  cd git-tutorial
+  436  ls
+  437  git clone https://github.com/LondheShubham153/90DaysOfDevOps.git
+  438  ls
+  439  cd 90DaysOfDevOps
+  440  ls
+  441  git status
+  442  git branch
+  443  git checkout -b demo-batch-7
+  444  git status
+  445  ls
+  446  cd 2024
+  447  ls
+  448  cd day01
+  449  ls
+  450  cat readme.md
+  451  cat README.md
+  452  vim solution.txt
+  453  git statud
+  454  git status
+  455  git add solution.txt
+  456  git commit -m "feat: added solution for day one"
+  457  git remote -v
+  458  git push origin demo-batch-7
+  459  git remote -v
+  460  git status
+  461  cd ..
+  462  git status
+  463  git clone https://github.com/ChitraRagit123/90DaysOfDevOps.git
+  464  ls
+  465  rm -r 90DaysOfDevOps
+  466  ls
+  467  git clone https://github.com/ChitraRagit123/90DaysOfDevOps.git
+  468  ls
+  469  cd 90DaysOfDevOps
+  470  ls
+  471  cd 2024
+  472  ls
+  473  cd day01
+  474  ls
+  475  vim solution1.txt
+  476  ls
+  477  git add solution1.txt
+  478  git commit -m "solution for day1 added"
+  479  ls
+  480  git status
+  481  git checkout -b demo-batch-7
+  482  git remote -v
+  483  git remote set-url origin https://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@github.com/ChitraRagit123/90DaysOfDevOps.git
+  484  ls
+  485  git remote -v
+  486  clear
+  487  git remote set-url origin https://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@github.com/ChitraRagit123/90DaysOfDevOps.git
+  488  ls
+  489  git remote -v
+  490  git push origin demo-batch-7
+  491  cd .ssh
+  492  cd
+  493  cd .ssh
+  494  ls
+  495  ssh-keygen
+  496  ls
+  497  cat id_ed25519.pub
+  498  cd ..
+  499  cd git-tutorial
+  500  git status
+  501  git clone git@github.com:ChitraRagit123/devops-batch-7.git
+  502  ls
+  503  git status
+  504  history > all_commands.txt
